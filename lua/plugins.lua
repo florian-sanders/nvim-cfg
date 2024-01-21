@@ -4,5 +4,7 @@ return {
   { "williamboman/mason.nvim" },
   { "williamboman/mason-lspconfig.nvim" },
   { "neovim/nvim-lspconfig" },
-  require('neo-tree'),
+  require('formatter'),
+--  require('neo-tree'),
+  require('completions'),
 }
