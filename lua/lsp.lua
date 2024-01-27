@@ -1,3 +1,4 @@
+--vim.lsp.set_log_level("debug")
 -- Setup mason
 require("mason").setup()
 require("mason-lspconfig").setup({
